@@ -1,0 +1,5 @@
+# BLOQUEAR ATAQUE DE X-CONTENT-TYPE-OPTIONS NO .HTACCESS #
+# ATTACK BLOCKING OF CONTENT TYPE OPTIONS X NO .HTACCESS #
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+</IfModule>
